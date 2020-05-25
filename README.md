@@ -9,7 +9,11 @@ First install vue-cli: https://cli.vuejs.org/guide/installation.html
 Then [create a vue project](https://cli.vuejs.org/guide/creating-a-project.html#vue-create), for instance with "vue" name
 
 ```bash
-vue create vue
+vue create vue 
+```
+or to use a web interface to configure the project
+```bash
+vue ui 
 ```
 
 A [vue](vue) folder will be created with all needed files: vues, node packages and a readme.
