@@ -37,12 +37,36 @@ cd vue
 npm install
 ```
 
-## How to build a vue.js website to specific folder?
+## Build the website
+
+Go to your vu folder and launch build
+
+```bash
+cd vue
+npm run build
+```
+
+### How to build a vue.js website to specific folder?
 
 4D server use [WebFolder](WebFolder) directory as main web server directory, so when building your Vue.js website you must configure the output directory.
 
 So you must create or edit the [vue.config.js](vue/vue.config.js) inside your website project to specify the "WebFolder" as [output directory](https://cli.vuejs.org/config/#outputdir)
 
-Then `npm build` will remove your the WebFolder and replace with new builded website.
+Then `npm build` will remove your the WebFolder and replace it with new builded website.
 
-PS: alternatively, you can add extrat step to copy builded files, default path is `dist`
+PS: alternatively, you can add extra step to copy builded files, default path is `dist`
+
+## How to develop with vue.js
+
+### IDE
+
+You could use [Visual Studio Code](https://code.visualstudio.com/) with [vue.js expansion pack](https://marketplace.visualstudio.com/items?itemName=mubaidr.vuejs-extension-pack)
+
+### Preview change
+
+Launch a webserver to preview a "development build" with auto-reload ie. each time you edit a file, the modifications are applied immediately
+
+```bash
+cd vue
+npm run serve
+```
