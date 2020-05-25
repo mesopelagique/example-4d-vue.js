@@ -14,13 +14,19 @@ vue create vue
 
 A [vue](vue) folder will be created with all needed files: vues, node packages and a readme.
 
-_Alternatively you could use an web insterface using_
+### Alternatively you could use an web insterface using
 
 ```bash
 vue ui 
 ```
 
 It is a really good alternative because it will help you to configure and to add additionnal tools and package such as `vue-rooter`
+
+#### Rooter
+
+Rooter allow to execute code or display page according to the URL.
+
+You can see change introduced by installing the [`vue-rooter`]( https://router.vuejs.org/) in this [pull request](https://github.com/mesopelagique/example-4d-vue.js/pull/1/files)
 
 ### How to download node packages for this repository?
 
