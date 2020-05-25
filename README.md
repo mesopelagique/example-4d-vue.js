@@ -79,3 +79,11 @@ Launch a webserver to preview a "development build" with auto-reload ie. each ti
 cd vue
 npm run serve
 ```
+
+## Exchanging data between front-end (vuejs) and backend (4d)
+
+4D backend using `on web connection` or using 4Daction could provide endpoint to provide data, as text, json, images, etc...
+
+The vue.js frontend will request this data using the chosen node http package (http, https, asio, etc...).
+
+A simple example is provided by this [pull request](https://github.com/mesopelagique/example-4d-vue.js/pull/2/files)
