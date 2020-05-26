@@ -90,6 +90,6 @@ You can install browser extension. For chrome [the extension is available here](
 
 4D backend using `on web connection` or using 4Daction could provide endpoint to provide data, as text, json, images, etc...
 
-The vue.js frontend will request this data using the chosen node http package (http, https, asio, etc...).
+The vue.js frontend will request this data using your favorite http request node package ([http, https, asio, etc...](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)) and fill the template.
 
 A simple example is provided by this [pull request](https://github.com/mesopelagique/example-4d-vue.js/pull/2/files)
