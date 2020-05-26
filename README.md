@@ -23,7 +23,7 @@ vue create vue
 
 A [vue](vue) folder will be created with all needed files: vues, node packages and a readme.
 
-### Alternatively you could use an web insterface using
+### Use an web insterface to create project and configure
 
 ```bash
 vue ui 
@@ -39,31 +39,33 @@ You can see change introduced by installing the [`vue-rooter`]( https://router.v
 
 ### How to download node packages for this repository?
 
-This repository contains already a [vue](vue). If you use it without any change and just downloaded it, you must install package using npm command
+This repository contains already a [vue project](vue). If you use it and just downloaded it, you must install javascript package using npm command
 
 ```bash
 cd vue
 npm install
 ```
 
+A node_modules folder will be created
+
 ## Build the website
 
-Go to your vu folder and launch build
+Go to your vue project folder and launch build
 
 ```bash
 cd vue
 npm run build
 ```
 
-### How to build a vue.js website to specific folder?
+### How to build a vue.js website to a specific folder?
 
 4D server use [WebFolder](WebFolder) directory as main web server directory, so when building your Vue.js website you must configure the output directory.
 
-So you must create or edit the [vue.config.js](vue/vue.config.js) inside your website project to specify the "WebFolder" as [output directory](https://cli.vuejs.org/config/#outputdir)
+So you must create or edit the [vue.config.js](vue/vue.config.js) inside your website project to specify the "WebFolder" as [output directory](https://cli.vuejs.org/config/#outputdir). (It's already done for this project)
 
-Then `npm build` will remove your the WebFolder and replace it with new builded website.
+Then any `npm build` will remove your the WebFolder and replace it with new builded website.
 
-PS: alternatively, you can add extra step to copy builded files, default path is `dist`
+PS: alternatively, you can add extra step to copy builded files. The default path is `dist`
 
 ## How to develop with vue.js
 
@@ -79,6 +81,10 @@ Launch a webserver to preview a "development build" with auto-reload ie. each ti
 cd vue
 npm run serve
 ```
+
+### Debugging
+
+You can install browser extension. For chrome [the extension is available here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=fr).
 
 ## Exchanging data between front-end (vuejs) and backend (4d)
 
