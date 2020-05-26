@@ -63,7 +63,7 @@ npm run build
 
 So you must create or edit the [vue.config.js](vue/vue.config.js) inside your website project to specify the "WebFolder" as [output directory](https://cli.vuejs.org/config/#outputdir). (It's already done for this project)
 
-Then any `npm build` will remove your the WebFolder and replace it with new builded website.
+Then any `npm build` will remove your WebFolder and replace it with the new builded website.
 
 PS: alternatively, you can add extra step to copy builded files. The default path is `dist`
 
@@ -84,7 +84,9 @@ npm run serve
 
 ### Debugging
 
-You can install browser extension. For chrome [the extension is available here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=fr).
+You can install browser extension. 
+
+For chrome [the extension is available here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=fr).
 
 ## Exchanging data between front-end (vuejs) and backend (4d)
 
